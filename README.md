@@ -1,12 +1,21 @@
-# Bike Sharing Demand Analysis
+# Bike Sharing Demand Forecasting
 
-**Summary**  
-Exploratory analysis and demand forecasting for a bike-sharing service.
+## Project Overview
+Forecasts bike rental demand using time-series and regression models. Designed to assist operational planning for public bike-sharing services.
 
-**Core Work**  
-- EDA with temperature, seasonality, hourly vs daily trends  
-- Visualizations: heatmaps, time series, distribution  
-- Demand forecasting via time-series regression or ARIMA
+##  Technologies Used
+- Python, Pandas, NumPy
+- Statsmodels, Scikit-learn
+- Streamlit for interactive visualization
+- Airflow for scheduled training
+- Amazon S3 for dataset storage
 
-**Tools**  
-Pandas, Matplotlib, Seaborn, Statsmodels, Jupyter
+##  Key Features
+- ✅ Performs time-based feature engineering  
+- ✅ Trains models to predict hourly/daily demand  
+- ✅ Streamlit dashboard for results  
+- ✅ Scheduled retraining using Airflow  
+- ✅ Data persisted via AWS S3
+
+##  Outcome
+Demonstrates time-series forecasting and visualization for real-world decision support use cases.
